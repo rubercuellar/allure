@@ -7,7 +7,7 @@ import allure
     ("2*4", 8),
     ("6*9", 54),
 ])
-@allure.title('Test')
+@allure.title('Test: {test_input}')
 def test_eval(test_input, expected):
     allure.attach("Ruber")
     assert eval(test_input) == expected
