@@ -1,6 +1,7 @@
 import pytest
 import allure
 
+@allure.feature("Ruber")
 @pytest.mark.parametrize("test_input,expected", [
     ("3*5", 15),
     ("2*4", 8),
