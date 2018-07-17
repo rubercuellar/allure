@@ -7,5 +7,5 @@ import allure
     ("6*9", 54),
 ])
 def test_eval(test_input, expected):
-    allure.attach(test_input)
+    allure.attach("Ruber")
     assert eval(test_input) == expected
